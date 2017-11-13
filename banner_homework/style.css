@@ -1,0 +1,124 @@
+.banner {
+    border: 5px solid black;
+    height: 60px;
+    width: 468px;
+    position: absolute;
+
+}
+.image-1{
+	background-image: url('images/banner1.gif');
+	background-repeat: no-repeat;
+	background-size: 468px 60px;
+
+}
+.image-2{
+	background-image: url('images/banner2.gif');
+	background-repeat: no-repeat;
+	background-size: 468px 60px;
+
+
+}
+.image-3{
+	background-image: url('images/banner3.gif');
+	background-repeat: no-repeat;
+	background-size: 468px 60px;
+
+}
+.image-4{
+	background-image: url('images/banner4.gif');
+	background-repeat: no-repeat;
+	background-size: 468px 60px;
+
+}
+.frenchQuarterSmall{
+	background-image: url('images/FrenchQuarter_small.jpg');
+	background-repeat: no-repeat;
+	background-size: 100px 75px;
+	top:16%;
+	height: 75px;
+	position: absolute;
+	width: 100px;
+}
+.GoldenGateBridge_small{
+	background-image: url('images/GoldenGateBridge_small.jpg');
+	background-repeat: no-repeat;
+	background-size: 100px 75px;
+	top:16%;
+	height: 75px;
+	position: absolute;
+	width: 100px;
+	left:13%;
+}
+.NazarethBay_small{
+	background-image: url('images/NazarethBay_small.jpg');
+	background-repeat: no-repeat;
+	background-size: 100px 75px;
+	top:16%;
+	height: 75px;
+	position: absolute;
+	width: 100px;
+	left:26%;
+}	
+.TheAlamo_small{
+	background-image: url('images/TheAlamo_small.jpg');
+	background-repeat: no-repeat;
+	background-size: 100px 75px;
+	top:16%;
+	height: 75px;
+	position: absolute;
+	width: 100px;
+	left:39%;
+}
+.placeholder{
+	background-image: url('images/placeholder.jpg');
+	background-repeat: no-repeat;
+	background-size: 512px 384px;
+	top:32%;
+	height: 384px;
+	position: absolute;
+	width: 512px;
+	left:1%;
+}
+
+#changing-image{
+	background-repeat: no-repeat;
+	background-size: 512px 384px;
+	top:32%;
+	height: 384px;
+	position: absolute;
+	width: 512px;
+	left:1%;
+}
+
+#changing-image.FrenchQuarter{
+	background-image: url('images/FrenchQuarter.jpg');
+	
+}
+#changing-image.GoldenGateBridge{
+	background-image: url('images/GoldenGateBridge.jpg');
+	}
+#changing-image.NazarethBay{
+	background-image: url('images/NazarethBay.jpg');
+}
+#changing-image.TheAlamo{
+	background-image: url('images/TheAlamo.jpg');
+}
+#changing-image.placeholder{
+	background-image: :url('images/placeholder.jpg');
+}
+#text{
+	background-repeat: no-repeat;
+	background-size: 512px 384px;
+	top:32%;
+	height: 384px;
+	position: absolute;
+	width: 512px;
+	left:1%;
+
+ }
+ #changing-text {
+ 	position: absolute;
+ 	top: 372px;
+ }
+
+

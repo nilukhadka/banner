@@ -1,0 +1,45 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Rotating Banner</title>
+	<script type="text/javascript">
+		var imageNumber=2;
+		window.setInterval(function(){
+			document.getElementById("banner-box").classList.remove('image-' + imageNumber)
+				if(imageNumber<4){
+					imageNumber++;
+				}else{
+					imageNumber=1;
+				}
+			document.getElementById("banner-box").classList.add('image-' + imageNumber)
+
+				}, 3000)
+
+		function changeBigImage(newImage){
+			var newClassName = newImage.replace(/\s/g, "")
+			document.getElementById("changing-text").innerHTML = newImage;
+			document.getElementById("changing-image").className = newClassName;
+		}
+
+	</script>
+</head>
+<body>
+	<div id="banner-box" class="banner">
+	</div>
+	<div class="frenchQuarterSmall" onmouseover="changeBigImage('French Quarter')" onmouseout="changeBigImage('placeholder')">
+	</div>
+	<div class="GoldenGateBridge_small" onmouseover="changeBigImage('Golden Gate Bridge')"onmouseout="changeBigImage('placeholder')">
+	</div>
+	<div class="NazarethBay_small" onmouseover="changeBigImage('Nazareth Bay')"onmouseout="changeBigImage('placeholder')">
+	</div>
+	<div class="TheAlamo_small" onmouseover="changeBigImage('The Alamo')"onmouseout="changeBigImage('placeholder')">
+	</div>
+	<div class="big-image" id="changing-image" >
+	</div>	
+	<div id="text">
+		<h1 id="changing-text"></h1>
+	</div>
+	
+	
+</body>
+</html>
